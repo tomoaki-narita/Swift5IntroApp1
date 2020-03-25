@@ -59,14 +59,57 @@
                     <view key="view" contentMode="scaleToFill" id="1yF-rr-jq9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.55000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9mJ-f0-0l7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyK-7p-TGE">
+                                <rect key="frame" x="61" y="418" width="291" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="log in">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="TuH-Ba-70I" eventType="touchUpInside" id="71e-ja-7WH"/>
+                                    <segue destination="bbz-i8-rCE" kind="show" id="sgD-i5-gYW"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9mJ-f0-0l7" firstAttribute="leading" secondItem="Dgm-z4-gzd" secondAttribute="leading" id="H06-e8-axK"/>
+                            <constraint firstItem="9mJ-f0-0l7" firstAttribute="trailing" secondItem="Dgm-z4-gzd" secondAttribute="trailing" id="QxK-ha-Xeg"/>
+                            <constraint firstItem="Dgm-z4-gzd" firstAttribute="bottom" secondItem="SyK-7p-TGE" secondAttribute="bottom" constant="335" id="edu-hV-Nzn"/>
+                            <constraint firstItem="SyK-7p-TGE" firstAttribute="top" secondItem="Dgm-z4-gzd" secondAttribute="top" constant="330" id="hdZ-4h-r8e"/>
+                            <constraint firstItem="SyK-7p-TGE" firstAttribute="leading" secondItem="Dgm-z4-gzd" secondAttribute="leading" constant="61" id="jWP-9m-9im"/>
+                            <constraint firstAttribute="bottom" secondItem="9mJ-f0-0l7" secondAttribute="bottom" id="qF2-eA-ERl"/>
+                            <constraint firstItem="Dgm-z4-gzd" firstAttribute="trailing" secondItem="SyK-7p-TGE" secondAttribute="trailing" constant="62" id="rir-Xs-ONi"/>
+                            <constraint firstItem="9mJ-f0-0l7" firstAttribute="top" secondItem="1yF-rr-jq9" secondAttribute="top" id="xnc-tq-uAI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Dgm-z4-gzd"/>
                     </view>
                     <navigationItem key="navigationItem" id="JT1-EM-sJD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rYr-GC-0ph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1594" y="138"/>
+            <point key="canvasLocation" x="1592.753623188406" y="137.94642857142856"/>
+        </scene>
+        <!--Base View Controller-->
+        <scene sceneID="3Aj-Sc-d2R">
+            <objects>
+                <viewController id="bbz-i8-rCE" customClass="BaseViewController" customModule="Swift5IntroApp1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OfC-HM-HBn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="TxD-gh-otO"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TK1-Ml-A7i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6K6-8P-usl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2317" y="138"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YYQ-mn-r6V">

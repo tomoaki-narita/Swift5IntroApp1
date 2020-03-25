@@ -13,13 +13,13 @@ import Lottie
 class IntroViewController: UIViewController,UIScrollViewDelegate {
 
     //scrollView
-   
     @IBOutlet weak var scrollView: UIScrollView!
-  //jsonファイルの配列(ファイル名)
-  var onboardArray = ["1","2","3","4","5"]
+ 
+    //jsonファイルの配列(ファイル名)
+    var onboardArray = ["1","2","3","4","5"]
    
-  //文字列の配列、jsonの配列と一対
-  var onboardStringArray = ["Hello.World","Hello.Swift","Hello.Ruby","Hello.Python","Hello.Java"]
+    //文字列の配列、jsonの配列と一対
+    var onboardStringArray = ["Hello.World","Hello.Swift","Hello.Ruby","Hello.Python","Hello.Java"] 
   
     override func viewDidLoad() {
         super.viewDidLoad()

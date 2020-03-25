@@ -20,6 +20,8 @@
 		E73894CC242ACE3500966ABF /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = E73894C7242ACE3500966ABF /* 4.json */; };
 		E73894CE242ACEE800966ABF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73894CD242ACEE800966ABF /* IntroViewController.swift */; };
 		E7B09293242B293900142EC8 /* LoginMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B09292242B293900142EC8 /* LoginMovieViewController.swift */; };
+		E7B09295242B567A00142EC8 /* start.mov in Resources */ = {isa = PBXBuildFile; fileRef = E7B09294242B567A00142EC8 /* start.mov */; };
+		E7B09297242B587400142EC8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B09296242B587400142EC8 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		E73894C7242ACE3500966ABF /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		E73894CD242ACEE800966ABF /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		E7B09292242B293900142EC8 /* LoginMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMovieViewController.swift; sourceTree = "<group>"; };
+		E7B09294242B567A00142EC8 /* start.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = start.mov; sourceTree = "<group>"; };
+		E7B09296242B587400142EC8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 				E73894C5242ACE3400966ABF /* 3.json */,
 				E73894C7242ACE3500966ABF /* 4.json */,
 				E73894C6242ACE3500966ABF /* 5.json */,
+				E7B09294242B567A00142EC8 /* start.mov */,
 			);
 			path = Swift5IntroApp1;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 				E73894AE242ACC3300966ABF /* SceneDelegate.swift */,
 				E73894CD242ACEE800966ABF /* IntroViewController.swift */,
 				E7B09292242B293900142EC8 /* LoginMovieViewController.swift */,
+				E7B09296242B587400142EC8 /* BaseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E73894C9242ACE3500966ABF /* 2.json in Resources */,
+				E7B09295242B567A00142EC8 /* start.mov in Resources */,
 				E73894CB242ACE3500966ABF /* 5.json in Resources */,
 				E73894CC242ACE3500966ABF /* 4.json in Resources */,
 				E73894B9242ACC3400966ABF /* LaunchScreen.storyboard in Resources */,
@@ -253,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B09297242B587400142EC8 /* BaseViewController.swift in Sources */,
 				E73894CE242ACEE800966ABF /* IntroViewController.swift in Sources */,
 				E7B09293242B293900142EC8 /* LoginMovieViewController.swift in Sources */,
 				E73894AD242ACC3300966ABF /* AppDelegate.swift in Sources */,
