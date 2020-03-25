@@ -19,6 +19,7 @@
 		E73894CB242ACE3500966ABF /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = E73894C6242ACE3500966ABF /* 5.json */; };
 		E73894CC242ACE3500966ABF /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = E73894C7242ACE3500966ABF /* 4.json */; };
 		E73894CE242ACEE800966ABF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73894CD242ACEE800966ABF /* IntroViewController.swift */; };
+		E7B09293242B293900142EC8 /* LoginMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B09292242B293900142EC8 /* LoginMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		E73894C6242ACE3500966ABF /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
 		E73894C7242ACE3500966ABF /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		E73894CD242ACEE800966ABF /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		E7B09292242B293900142EC8 /* LoginMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				E73894AC242ACC3300966ABF /* AppDelegate.swift */,
 				E73894AE242ACC3300966ABF /* SceneDelegate.swift */,
 				E73894CD242ACEE800966ABF /* IntroViewController.swift */,
+				E7B09292242B293900142EC8 /* LoginMovieViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E73894CE242ACEE800966ABF /* IntroViewController.swift in Sources */,
+				E7B09293242B293900142EC8 /* LoginMovieViewController.swift in Sources */,
 				E73894AD242ACC3300966ABF /* AppDelegate.swift in Sources */,
 				E73894AF242ACC3300966ABF /* SceneDelegate.swift in Sources */,
 			);
