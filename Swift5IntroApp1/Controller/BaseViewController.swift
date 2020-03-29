@@ -29,7 +29,7 @@ class BaseViewController: SegementSlideViewController {
         //headerViewの表示をどうするか
         headerView.contentMode = .scaleToFill
         //headerViewのimageに表示する画像のファイル名を指定
-        headerView.image = UIImage(named: "ファイル名")
+        headerView.image = UIImage(named: "header")
         
         headerView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -53,17 +53,29 @@ class BaseViewController: SegementSlideViewController {
     override var titlesInSwitcher: [String] {
         
         //作ったタブの分だけControllerフォルダのswiftファイルも必要になる
-        return ["TOP","AbemaNews","Yahoo!","IT","Buzz","CNN"]
+        return ["yahoo!","AbemaNews","gigazine!","ライフハッカー","buzzfeed","gizmodo"]
         }
     
+    //タブが出来て、そのタブに付随したcontrollerクラスを返すメソッド
     override func segementSlideContentViewController(at index: Int) -> SegementSlideContentScrollViewDelegate? {
         
         switch index {
             
         case 0:
-            return
-        default:
-            <#code#>
+            return Page1ViewController()
+        case 1:
+            return Page2ViewController()
+        case 2:
+            return Page3ViewController()
+        case 3:
+            return Page4ViewController()
+        case 4:
+            return Page5ViewController()
+        case 5:
+            return Page6ViewController()
+     
+        default:return Page1ViewController()
+        
         }
         
         

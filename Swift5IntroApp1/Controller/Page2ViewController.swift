@@ -10,7 +10,7 @@ import UIKit
 //SegementSlideをインポート
 import SegementSlide
 //SegementSlideContentScrollViewDelegateとXMLParserDelegateを親クラスに追加
-class Page1ViewController: UITableViewController,SegementSlideContentScrollViewDelegate,XMLParserDelegate {
+class Page2ViewController: UITableViewController,SegementSlideContentScrollViewDelegate,XMLParserDelegate {
     
     //XMLParserクラスをparserとして宣言(インスタンスを作成する)
     //XMLパース(XML形式の文書やファイルをプログラムやアプリで利用しやすい型に変換する)
@@ -31,7 +31,7 @@ class Page1ViewController: UITableViewController,SegementSlideContentScrollViewD
         
         
         //UIImage型のimageと言う変数名で画像のファイル名も記述
-        let image = UIImage(named: "0")
+        let image = UIImage(named: "1")
         
         //画像を表示する位置と範囲
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0,
@@ -45,7 +45,7 @@ class Page1ViewController: UITableViewController,SegementSlideContentScrollViewD
         
         
         //yahooのxmlのurlをurlString(定数)に入れる
-        let urlString = "https://news.yahoo.co.jp/pickup/rss.xml"
+        let urlString = "https://www.mdn.co.jp/di/feed"
         
         //上で作ったurlString"文字列型"を"URL型"にしてurl(定数)に入れる
         let url:URL = URL(string: urlString)!
@@ -222,7 +222,7 @@ class Page1ViewController: UITableViewController,SegementSlideContentScrollViewD
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
     */
 
@@ -252,3 +252,4 @@ class Page1ViewController: UITableViewController,SegementSlideContentScrollViewD
     */
 
 }
+
